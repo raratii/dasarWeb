@@ -8,8 +8,6 @@
     border-radius: 10px;
     overflow: hidden;
 }
-
-/* Sidebar Kiri */
 .sidebar-satu {
     flex: 1;
     margin-right: 20px;
@@ -18,14 +16,11 @@
     padding: 15px;
     border-radius: 8px;
 }
-
 .sidebar-satu img {
     width: 100%;
     margin-top: 10px;
     border-radius: 6px;
 }
-
-/* Artikel Utama */
 .kolom-utama {
     flex: 2;
     margin-right: 20px;
@@ -34,14 +29,11 @@
     padding: 15px;
     border-radius: 8px;
 }
-
 .kolom-utama .gambar-artikel {
     width: 100%;
     margin-bottom: 15px;
     border-radius: 6px;
 }
-
-/* Sidebar Kanan */
 .sidebar-dua {
     flex: 1;
     order: 3;
@@ -49,20 +41,17 @@
     padding: 15px;
     border-radius: 8px;
 }
-
 .sidebar-dua img {
     width: 100%;
     margin-top: 10px;
     border-radius: 6px;
 }
 
-/* Link Hover Effect */
 .sidebar-satu a {
     color: #333;
     text-decoration: none;
     transition: color 0.3s ease;
 }
-
 .sidebar-satu a:hover {
     color: #d35400;
 }
