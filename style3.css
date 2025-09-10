@@ -1,32 +1,68 @@
-html, body {
-    margin: 0;
-    padding: 0;
-}
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #ddd;
-    line-height: 1.65;
-    padding-bottom: 1000px;
-}
 .container-satu {
-    width: 800px;
+    width: 1000px;
     margin: 50px auto;
     background-color: #fff;
     padding: 20px;
     box-sizing: border-box;
     display: flex;
+    border-radius: 10px;
+    overflow: hidden;
 }
+
+/* Sidebar Kiri */
 .sidebar-satu {
-    flex: 1;          
+    flex: 1;
     margin-right: 20px;
     order: 1;
+    background: linear-gradient(180deg, #ffecd2, #fcb69f);
+    padding: 15px;
+    border-radius: 8px;
 }
+
+.sidebar-satu img {
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+
+/* Artikel Utama */
 .kolom-utama {
-    flex: 2;         
+    flex: 2;
     margin-right: 20px;
     order: 2;
+    background: linear-gradient(180deg, #c9ffbf, #ffafbd);
+    padding: 15px;
+    border-radius: 8px;
 }
+
+.kolom-utama .gambar-artikel {
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 6px;
+}
+
+/* Sidebar Kanan */
 .sidebar-dua {
     flex: 1;
-    order: 3;         
+    order: 3;
+    background: linear-gradient(180deg, #a1c4fd, #c2e9fb);
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.sidebar-dua img {
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+
+/* Link Hover Effect */
+.sidebar-satu a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.sidebar-satu a:hover {
+    color: #d35400;
 }
