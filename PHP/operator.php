@@ -50,10 +50,5 @@ $a *= $b;
 $a /= $b;
 $a %= $b;
 
-echo "a += b = $a <br>";
-echo "a -= b = $a <br>";
-echo "a *= b = $a <br>";
-echo "a /= b = $a <br>";
-echo "a %= b = $a <br>";
 echo"<br>";
 ?>
