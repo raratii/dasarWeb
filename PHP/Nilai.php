@@ -1,8 +1,6 @@
 <?php
 echo "<h3>Perhitungan Nilai Setelah Abaikan 2 Tertinggi & 2 Terendah:</h3>";
-
 $nilaiSiswa = [85, 92, 78, 64, 90, 75, 88, 79, 70, 96];
-
 for ($i = 0; $i < count($nilaiSiswa) - 1; $i++) {
     for ($j = $i + 1; $j < count($nilaiSiswa); $j++) {
         if ($nilaiSiswa[$i] > $nilaiSiswa[$j]) {
