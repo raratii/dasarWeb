@@ -1,6 +1,6 @@
 <?php
 $nilaiNumerik = 92;
-
+echo "<h3>Penilaian Berdasarkan Nilai Numerik:</h3>";
 if ($nilaiNumerik >= 90 && $nilaiNumerik <= 100) {
     echo "Nilai huruf: A";
 } elseif ($nilaiNumerik >= 80 && $nilaiNumerik < 90) {
@@ -15,12 +15,10 @@ $jarakSaatIni = 0;
 $jarakTarget = 500;
 $peningkatanHarian = 30;
 $hari = 0;
-
 while ($jarakSaatIni < $jarakTarget) {
     $jarakSaatIni += $peningkatanHarian;
     $hari++;
 }
-
 echo "Atlet tersebut memerlukan " . $hari . " hari untuk mencapai jarak 500 kilometer.";
 echo "<br>";
 
