@@ -70,4 +70,11 @@ $a = 10; $b = 5;
 $a %= $b;
 echo "a %= b -> $a <br>";
 echo"<br>";
+
+$hasilIdentik = $a === $b;
+$hasilTidakIdentik = $a !== $b;
+
+echo "Identik (===): $a === $b = " . ($hasilIdentik ? "true" : "false") . "<br>";
+echo "Tidak Identik (!==): $a !== $b = " . ($hasilTidakIdentik ? "true" : "false") . "<br>";
+echo "<br>";
 ?>
