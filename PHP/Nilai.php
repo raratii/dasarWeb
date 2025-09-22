@@ -17,7 +17,6 @@ for ($i = 2; $i < count($nilaiSiswa) - 2; $i++) {
     $totalNilai += $nilaiSiswa[$i];
     echo "Nilai: " . $nilaiSiswa[$i] . "<br>";
 }
-
 echo "<br>Total nilai: " . $totalNilai . "<br>";
 $rataRata = $totalNilai / (count($nilaiSiswa) - 4);
 echo "Rata-rata: " . number_format($rataRata, 2);
