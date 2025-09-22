@@ -43,4 +43,5 @@ foreach ($skorUjian as $skor) {
 }
 echo "Total skor ujian adalah: " . $totalSkor;
 echo "<br>";
+
 ?>
