@@ -50,5 +50,24 @@ $a *= $b;
 $a /= $b;
 $a %= $b;
 
+$a = 10; $b = 5;
+$a += $b;
+echo "a += b -> $a <br>";
+
+$a = 10; $b = 5;
+$a -= $b;
+echo "a -= b -> $a <br>";
+
+$a = 10; $b = 5;
+$a *= $b;
+echo "a *= b -> $a <br>";
+
+$a = 10; $b = 5;
+$a /= $b;
+echo "a /= b -> $a <br>";
+
+$a = 10; $b = 5;
+$a %= $b;
+echo "a %= b -> $a <br>";
 echo"<br>";
 ?>
