@@ -24,4 +24,36 @@ $hasilLebihKecil = $a < $b;
 $hasilLebihBesar = $a > $b;
 $hasilLebihKecilSama = $a <= $b;
 $hasilLebihBesarSama = $a >= $b;
+
+echo "Sama: $a == $b = " . ($hasilSama ? "true" : "false") . "<br>";
+echo "Tidak sama: $a != $b = " . ($hasilTidakSama ? "true" : "false") . "<br>";
+echo "Lebih kecil: $a < $b = " . ($hasilLebihKecil ? "true" : "false") . "<br>";
+echo "Lebih besar: $a > $b = " . ($hasilLebihBesar ? "true" : "false") . "<br>";
+echo "Lebih kecil atau sama dengan: $a <= $b = " . ($hasilLebihKecilSama ? "true" : "false") . "<br>";
+echo "Lebih besar atau sama dengan: $a >= $b = " . ($hasilLebihBesarSama ? "true" : "false") . "<br>";
+echo "<br>";
+
+$hasilAnd = $a && $b;
+$hasilOr = $a || $b;
+$hasilNotA = !$a;
+$hasilNotB = !$b;
+
+echo "AND: $a && $b = " . ($hasilAnd ? "true" : "false") . "<br>";
+echo "OR:  $a || $b = " . ($hasilOr ? "true" : "false") . "<br>";
+echo "NOT A: !$a = " . ($hasilNotA ? "true" : "false") . "<br>";
+echo "NOT B: !$b = " . ($hasilNotB ? "true" : "false") . "<br>";
+echo "<br>";
+
+$a += $b;
+$a -= $b;
+$a *= $b;
+$a /= $b;
+$a %= $b;
+
+echo "a += b = $a <br>";
+echo "a -= b = $a <br>";
+echo "a *= b = $a <br>";
+echo "a /= b = $a <br>";
+echo "a %= b = $a <br>";
+echo"<br>";
 ?>
