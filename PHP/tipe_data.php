@@ -10,20 +10,19 @@ echo "Variable a: {$b} <br>";
 echo "Variable a: {$c} <br>";
 echo "Variable a: {$d} <br>";
 echo "Variable a: {$e} <br>";
-
 var_dump($e);
+echo"<br>";
 echo "<br>";
 $nilaiMatematika = 5.1;
 $nilaiIPA= 6.7;
 $nilaiBahasaIndonesia = 9.3;
-
 $rataRata = ($nilaiMatematika + $nilaiIPA + $nilaiBahasaIndonesia) /3;
 
 echo "Matematika: {$nilaiMatematika} <br>";
 echo "IPA: {$nilaiIPA} <br>";
 echo "Bahasa Indonesia: {$nilaiBahasaIndonesia} <br>";
 echo "Rata-rata: {$rataRata} <br>";
-
+echo"<br>";
 var_dump($rataRata);
 
 $apakahSiswaLulus = true;
@@ -34,7 +33,7 @@ var_dump($apakahSiswaLulus);
 echo "<br>";
 var_dump($apakahSiswaSudahUjian);
 echo "<br>";
-
+echo"<br>";
 $namaDepan = "Ibnu";
 $namaBelakang = 'Jakaria';
 
