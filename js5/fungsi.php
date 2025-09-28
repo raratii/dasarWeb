@@ -1,0 +1,8 @@
+<?php
+function perkenalan (){
+    echo"Assalamualaikum, ";
+    echo"Perkenalkan, nama saya Rati <br/>";
+    echo "Senang berkenalan dengan anda<br/>";
+}
+perkenalan();
+?>
