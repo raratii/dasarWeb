@@ -5,4 +5,5 @@ function perkenalan (){
     echo "Senang berkenalan dengan anda<br/>";
 }
 perkenalan();
+perkenalan();
 ?>
