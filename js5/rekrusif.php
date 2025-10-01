@@ -1,8 +1,5 @@
 <?php
-function tampilkanHaloDunia($n){
-    if($n <= 0) return;
-    echo "Hallo Dunia! <br>";
-    tampilkanHaloDunia($n-1);
+for ($i=1; $i<=25; $i++) { 
+    echo"Perulangan ke-{$i} <br>";
 }
-tampilkanHaloDunia(5);
 ?>
