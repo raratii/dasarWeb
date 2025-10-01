@@ -1,9 +1,8 @@
 <?php
-function tampilkanHaloDunia(){
-    echo"Hallo Dunia! <br>";
-
-    tampilkanHaloDunia();
+function tampilkanHaloDunia($n){
+    if($n <= 0) return;
+    echo "Hallo Dunia! <br>";
+    tampilkanHaloDunia($n-1);
 }
-
-tampilkanHaloDunia();
+tampilkanHaloDunia(5);
 ?>
