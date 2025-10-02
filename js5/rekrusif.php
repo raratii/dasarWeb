@@ -32,12 +32,19 @@ $menu = [
         "nama" => "Kontak"
     ],
 ];
+
 function tampilkanMenuBetingkat(array $menu) {
-    echo"<ul>";
-    foreach ($menu as $key => $item) {
-        echo "<li>{$item['nama']}<li/>";
+    echo "<ul>";
+    foreach ($menu as $item) {
+        echo "<li>{$item['nama']}";
+        if (isset($item['subMenu'])) {
+            tampilkanMenuBetingkat($item['subMenu']); // rekursif
+        }
+
+        echo "</li>";
     }
     echo "</ul>";
 }
+
 tampilkanMenuBetingkat($menu);
 ?>
